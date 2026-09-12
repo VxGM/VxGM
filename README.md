@@ -3,15 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/codidevs.com-1F3864?style=for-the-badge&logo=googlechrome&logoColor=C9A227" alt="Sitio de CodiDevs"></a>
-  <a href="https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-1F3864?style=for-the-badge&logo=linkedin&logoColor=C9A227" alt="LinkedIn de Victor Banchón"></a>
-  <a href="https://www.instagram.com/vcrthor/"><img src="https://img.shields.io/badge/Instagram-vcrthor-1F3864?style=for-the-badge&logo=instagram&logoColor=C9A227" alt="Instagram de Victor Banchón"></a>
+  <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/codidevs.com-0078D7?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Sitio de CodiDevs"></a>
+  <a href="https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-2F9FE0?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn de Victor Banchón"></a>
+  <a href="https://www.instagram.com/vcrthor/"><img src="https://img.shields.io/badge/Instagram-vcrthor-00C8C8?style=for-the-badge&logo=instagram&logoColor=FFFFFF" alt="Instagram de Victor Banchón"></a>
 </p>
 
-<!-- TODO: reemplaza TU-USUARIO en el link de LinkedIn por tu URL real antes de publicar -->
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Lora&weight=600&size=23&pause=900&color=C9A227&center=true&vCenter=true&width=900&lines=Ingeniero+en+Tecnolog%C3%ADas+de+la+Informaci%C3%B3n+(ULEAM);Dise%C3%B1o+interfaces+y+construyo+frontend;Producto+digital+para+empresas+en+Ecuador;Hackathones+y+equipos+que+env%C3%ADan" alt="Introducción animada de Victor Banchón">
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=700&size=23&pause=900&color=2F9FE0&background=00000000&center=true&vCenter=true&width=900&lines=Ingeniero+en+Tecnolog%C3%ADas+de+la+Informaci%C3%B3n+(ULEAM);Dise%C3%B1o+interfaces+y+construyo+frontend;Producto+digital+para+empresas+en+Ecuador;Hackatones+y+equipos+que+env%C3%ADan" alt="Introducción animada de Victor Banchón">
 </p>
 
 <table>
@@ -37,6 +35,10 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="./assets/aero-divider.svg" alt="" width="100%">
+</p>
 
 ## CodiDevs
 
@@ -87,7 +89,7 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,html,css,js,ts,react,next,tailwind,nodejs,supabase,postgres,vercel,git,github,n8n,openai&perline=8&theme=dark" alt="Tecnologías que uso">
+  <img src="https://skillicons.dev/icons?i=figma,html,css,js,ts,react,next,tailwind,nodejs,supabase,postgres,vercel,git,github,n8n,openai&perline=8&theme=light" alt="Tecnologías que uso">
 </p>
 
 <table>
@@ -112,13 +114,13 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 ## Actividad
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=VxGM&show_icons=true&hide_border=true&include_all_commits=true&bg_color=0E1A2E&title_color=C9A227&text_color=9DABC7&icon_color=C9A227&custom_title=Actividad%20en%20GitHub" alt="Estadísticas de GitHub">
-  <img width="49%" src="https://streak-stats.demolab.com?user=VxGM&hide_border=true&border_radius=14&background=0E1A2E&stroke=1F3864&ring=C9A227&fire=C9A227&currStreakLabel=C9A227&sideLabels=9DABC7&dates=6C7C9C&currStreakNum=EEF2F9&sideNums=EEF2F9" alt="Racha de contribuciones">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=VxGM&show_icons=true&include_all_commits=true&bg_color=EAF8FF&title_color=0078D7&text_color=063A5E&icon_color=7AB800&border_color=4CC2FF&border_radius=14&custom_title=Actividad%20en%20GitHub" alt="Estadísticas de GitHub">
+  <img width="49%" src="https://streak-stats.demolab.com?user=VxGM&border_radius=14&background=EAF8FF&border=4CC2FF&stroke=4CC2FF&ring=0078D7&fire=F7941E&currStreakLabel=0078D7&sideLabels=063A5E&dates=6C8CA8&currStreakNum=063A5E&sideNums=063A5E" alt="Racha de contribuciones">
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VxGM&layout=compact&hide_border=true&langs_count=8&bg_color=0E1A2E&title_color=C9A227&text_color=9DABC7" alt="Lenguajes principales">
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VxGM&hide_border=true&radius=14&area=true&bg_color=0E1A2E&color=C9A227&line=C9A227&point=EEF2F9&title_color=C9A227&custom_title=Pulso%20de%20contribuciones" alt="Gráfico de actividad de contribuciones">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VxGM&layout=compact&langs_count=8&bg_color=EAF8FF&title_color=0078D7&text_color=063A5E&border_color=4CC2FF&border_radius=14" alt="Lenguajes principales">
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VxGM&radius=14&area=true&bg_color=EAF8FF&color=0078D7&line=7AB800&point=00C8C8&title_color=0078D7&border_color=4CC2FF&custom_title=Pulso%20de%20contribuciones" alt="Gráfico de actividad de contribuciones">
 </p>
 
 <p align="center">
@@ -129,10 +131,14 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
   </picture>
 </p>
 
+<p align="center">
+  <img src="./assets/aero-divider.svg" alt="" width="100%">
+</p>
+
 ## Contacto
 
 <p align="center">
-  <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/Hablemos_de_tu_proyecto-codidevs.com-C9A227?style=for-the-badge&logoColor=1F3864" alt="Ir a codidevs.com"></a>
+  <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/Hablemos_de_tu_proyecto-codidevs.com-7AB800?style=for-the-badge&logoColor=FFFFFF" alt="Ir a codidevs.com"></a>
 </p>
 
 <p align="center">
