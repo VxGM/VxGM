@@ -115,7 +115,6 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 ## Actividad
 
 <p align="center">
-  <a href="https://github.com/VxGM?tab=followers"><img src="https://img.shields.io/github/followers/VxGM?style=for-the-badge&label=Seguidores&color=0078D7&labelColor=063A5E&logo=github" alt="Seguidores en GitHub"></a>
   <a href="https://github.com/VxGM/VxGM/stargazers"><img src="https://img.shields.io/github/stars/VxGM/VxGM?style=for-the-badge&label=Estrellas&color=7AB800&labelColor=063A5E&logo=github" alt="Estrellas del repositorio de perfil"></a>
   <a href="https://github.com/VxGM/VxGM/commits/main"><img src="https://img.shields.io/github/last-commit/VxGM/VxGM?style=for-the-badge&label=%C3%9Altimo%20commit&color=00C8C8&labelColor=063A5E&logo=git" alt="Último commit"></a>
 </p>
