@@ -1,30 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Divisor decorativo estilo Frutiger Aero con cielo, colina verde y burbujas">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Divisor decorativo estilo Frutiger Aero: olas de vidrio con burbujas ascendentes y destellos de sol">
+  <style>
+    .wave-a{animation:drift 11s ease-in-out infinite}
+    .wave-b{animation:drift 14s ease-in-out -4s infinite}
+    .wave-c{animation:drift 9s ease-in-out -2s infinite}
+    .r1{animation:rise 6s linear infinite}
+    .r2{animation:rise 7.5s linear -1.8s infinite}
+    .r3{animation:rise 5.4s linear -3.1s infinite}
+    .r4{animation:rise 8.4s linear -0.9s infinite}
+    .r5{animation:rise 6.8s linear -4.4s infinite}
+    .r6{animation:rise 9.2s linear -2.5s infinite}
+    .r7{animation:rise 7s linear -5.2s infinite}
+    .tw1{animation:tw 3.2s ease-in-out infinite}
+    .tw2{animation:tw 4.1s ease-in-out -1.5s infinite}
+    .tw3{animation:tw 2.7s ease-in-out -0.7s infinite}
+    @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(-14px)}}
+    @keyframes rise{0%{transform:translateY(34px);opacity:0}18%{opacity:.8}78%{opacity:.55}100%{transform:translateY(-30px);opacity:0}}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.95}}
+    @media (prefers-reduced-motion: reduce){
+      .wave-a,.wave-b,.wave-c,.r1,.r2,.r3,.r4,.r5,.r6,.r7,.tw1,.tw2,.tw3{animation:none}
+    }
+  </style>
+
   <defs>
-    <linearGradient id="sky3" x1="0" y1="0" x2="0.6" y2="1">
-      <stop offset="0" stop-color="#8fd8ff"/>
-      <stop offset="0.55" stop-color="#b9ecff"/>
-      <stop offset="1" stop-color="#e4f8ff"/>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#3fb0f0"/>
+      <stop offset="0.55" stop-color="#7cd4ff"/>
+      <stop offset="1" stop-color="#cfeeff"/>
     </linearGradient>
+    <linearGradient id="wave1G" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6fc9f7" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="wave2G" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6f2ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3fb0f0" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="wave3G" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9f9ff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#2f9fe0" stop-opacity="0.7"/>
+    </linearGradient>
+    <radialGradient id="sunG3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#fff8d6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe89a" stop-opacity="0"/>
+    </radialGradient>
     <radialGradient id="bubbleG3" cx="0.32" cy="0.26" r="0.78">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
       <stop offset="0.32" stop-color="#ffffff" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#8fd8ff" stop-opacity="0.12"/>
     </radialGradient>
-    <linearGradient id="grassG3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a5d610"/>
-      <stop offset="1" stop-color="#4d7a10"/>
-    </linearGradient>
-    <radialGradient id="sunG3" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#ffe89a" stop-opacity="0"/>
-    </radialGradient>
     <clipPath id="divClip"><rect x="0" y="0" width="1200" height="72" rx="18"/></clipPath>
+    <g id="star3">
+      <path d="M0 -3.4 L0.9 -0.9 L3.4 0 L0.9 0.9 L0 3.4 L-0.9 0.9 L-3.4 0 L-0.9 -0.9 Z" fill="#ffffff"/>
+    </g>
   </defs>
+
   <g clip-path="url(#divClip)">
     <rect width="1200" height="72" fill="url(#sky3)"/>
-    <circle cx="1120" cy="6" r="86" fill="url(#sunG3)"/>
-    <path d="M 0 72.0 L 12 72.0 L 24 72.0 L 36 72.0 L 48 72.0 L 60 72.0 L 72 72.0 L 84 72.0 L 96 72.0 L 108 72.0 L 120 72.0 L 132 72.0 L 144 72.0 L 156 72.0 L 168 72.0 L 180 72.0 L 192 72.0 L 204 72.0 L 216 72.0 L 228 72.0 L 240 72.0 L 252 72.0 L 264 72.0 L 276 72.0 L 288 72.0 L 300 72.0 L 312 72.0 L 324 72.0 L 336 72.0 L 348 72.0 L 360 72.0 L 372 72.0 L 384 72.0 L 396 72.0 L 408 72.0 L 420 72.0 L 432 71.9 L 444 71.6 L 456 71.4 L 468 71.0 L 480 70.5 L 492 70.0 L 504 69.4 L 516 68.7 L 528 68.0 L 540 67.2 L 552 66.4 L 564 65.5 L 576 64.6 L 588 63.6 L 600 62.6 L 612 61.7 L 624 60.7 L 636 59.7 L 648 58.7 L 660 57.8 L 672 56.8 L 684 55.9 L 696 55.1 L 708 54.3 L 720 53.5 L 732 52.8 L 744 52.2 L 756 51.6 L 768 51.2 L 780 50.8 L 792 50.4 L 804 50.2 L 816 50.1 L 828 50.0 L 840 50.0 L 852 50.1 L 864 50.4 L 876 50.6 L 888 51.0 L 900 51.5 L 912 52.0 L 924 52.6 L 936 53.3 L 948 54.0 L 960 54.8 L 972 55.6 L 984 56.5 L 996 57.4 L 1008 58.4 L 1020 59.4 L 1032 60.3 L 1044 61.3 L 1056 62.3 L 1068 63.3 L 1080 64.2 L 1092 65.2 L 1104 66.1 L 1116 66.9 L 1128 67.7 L 1140 68.5 L 1152 69.2 L 1164 69.8 L 1176 70.4 L 1188 70.8 L 1200 71.2 L 1200 72 L 0 72 Z" fill="url(#grassG3)"/>
-    <circle cx="150" cy="30" r="11" fill="url(#bubbleG3)"/><circle cx="150" cy="30" r="11" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="232" cy="46" r="7" fill="url(#bubbleG3)"/><circle cx="232" cy="46" r="7" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="318" cy="24" r="9" fill="url(#bubbleG3)"/><circle cx="318" cy="24" r="9" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="520" cy="40" r="6" fill="url(#bubbleG3)"/><circle cx="520" cy="40" r="6" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="660" cy="22" r="8" fill="url(#bubbleG3)"/><circle cx="660" cy="22" r="8" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="905" cy="30" r="10" fill="url(#bubbleG3)"/><circle cx="905" cy="30" r="10" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="1010" cy="46" r="6" fill="url(#bubbleG3)"/><circle cx="1010" cy="46" r="6" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/><circle cx="1112" cy="26" r="8" fill="url(#bubbleG3)"/><circle cx="1112" cy="26" r="8" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+    <circle cx="1120" cy="4" r="88" fill="url(#sunG3)"/>
+    <circle cx="1044" cy="14" r="4" fill="#ffffff" opacity="0.2"/>
+    <circle cx="984" cy="24" r="2.6" fill="#7df9ff" opacity="0.22"/>
+
+    <g class="wave-a">
+      <path d="M-20 50 C 140 42 300 58 460 52 C 620 46 760 44 920 50 C 1060 55 1150 56 1220 52 L1220 72 L-20 72 Z" fill="url(#wave1G)"/>
+    </g>
+    <g class="wave-b">
+      <path d="M-20 58 C 160 50 340 64 520 59 C 700 54 880 50 1060 57 C 1140 60 1190 59 1220 58 L1220 72 L-20 72 Z" fill="url(#wave2G)"/>
+    </g>
+    <g class="wave-c">
+      <path d="M-20 65 C 180 59 420 69 640 64 C 840 60 1040 58 1220 64 L1220 72 L-20 72 Z" fill="url(#wave3G)"/>
+      <path d="M-20 65 C 180 59 420 69 640 64 C 840 60 1040 58 1220 64" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-opacity="0.85"/>
+    </g>
+    <g class="wave-b">
+      <path d="M-20 58 C 160 50 340 64 520 59 C 700 54 880 50 1060 57 C 1140 60 1190 59 1220 58" fill="none" stroke="#ffffff" stroke-width="1.1" stroke-opacity="0.6"/>
+    </g>
+
+    <g class="r1"><circle cx="120" cy="48" r="4.4" fill="url(#bubbleG3)"/><circle cx="120" cy="48" r="4.4" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.7"/></g>
+    <g class="r2"><circle cx="265" cy="54" r="3" fill="url(#bubbleG3)"/><circle cx="265" cy="54" r="3" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.65"/></g>
+    <g class="r3"><circle cx="420" cy="46" r="5" fill="url(#bubbleG3)"/><circle cx="420" cy="46" r="5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.7"/></g>
+    <g class="r4"><circle cx="585" cy="56" r="2.6" fill="url(#bubbleG3)"/><circle cx="585" cy="56" r="2.6" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.6"/></g>
+    <g class="r5"><circle cx="740" cy="48" r="4" fill="url(#bubbleG3)"/><circle cx="740" cy="48" r="4" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.7"/></g>
+    <g class="r6"><circle cx="905" cy="52" r="3.2" fill="url(#bubbleG3)"/><circle cx="905" cy="52" r="3.2" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.65"/></g>
+    <g class="r7"><circle cx="1065" cy="46" r="4.6" fill="url(#bubbleG3)"/><circle cx="1065" cy="46" r="4.6" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.7"/></g>
+
+    <use href="#star3" class="tw1" transform="translate(210 46) scale(0.8)"/>
+    <use href="#star3" class="tw2" transform="translate(505 52) scale(0.65)"/>
+    <use href="#star3" class="tw3" transform="translate(815 50) scale(0.85)"/>
+    <use href="#star3" class="tw1" transform="translate(1010 44) scale(0.7)"/>
+    <use href="#star3" class="tw2" transform="translate(660 58) scale(0.6)"/>
   </g>
   <rect x="0.6" y="0.6" width="1198.8" height="70.8" rx="17.4" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.2"/>
 </svg>

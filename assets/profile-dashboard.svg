@@ -1,12 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="panelTitle panelDesc">
   <title id="panelTitle">Áreas de trabajo de Victor Banchón</title>
-  <desc id="panelDesc">Panel de vidrio estilo Frutiger Aero sobre un paisaje de cielo y césped, con barras brillantes que muestran las áreas de trabajo: diseño UI/UX y design systems, frontend con React y Tailwind, identidad visual y landings, producto y MVPs, automatización e IA aplicada.</desc>
+  <desc id="panelDesc">Panel de vidrio estilo Frutiger Aero sobre un paisaje de cielo y césped, con barras brillantes que muestran las áreas de trabajo: diseño UI/UX y design systems, frontend con React y Tailwind, identidad visual y landings, producto y MVPs, automatización e IA aplicada. Animación declarativa que respeta prefers-reduced-motion.</desc>
+
+  <style>
+    .float-a{animation:floatA 6.8s ease-in-out infinite}
+    .float-b{animation:floatA 8.6s ease-in-out -2.6s infinite}
+    .float-c{animation:floatA 7.4s ease-in-out -4.3s infinite}
+    .sheen{animation:sweep 9s ease-in-out 2s infinite}
+    .tw1{animation:tw 3.6s ease-in-out infinite}
+    .tw2{animation:tw 4.4s ease-in-out -1.6s infinite}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:barIn 1.15s cubic-bezier(.25,.9,.3,1) both}
+    .b1{animation-delay:.15s}
+    .b2{animation-delay:.3s}
+    .b3{animation-delay:.45s}
+    .b4{animation-delay:.6s}
+    .b5{animation-delay:.75s}
+    @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+    @keyframes sweep{0%{transform:translateX(-220px)}40%{transform:translateX(620px)}100%{transform:translateX(620px)}}
+    @keyframes tw{0%,100%{opacity:.12}50%{opacity:.9}}
+    @keyframes barIn{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion: reduce){
+      .float-a,.float-b,.float-c,.sheen,.tw1,.tw2,.bar{animation:none}
+    }
+  </style>
 
   <defs>
-    <linearGradient id="sky2" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#2f9fe0"/>
-      <stop offset="0.5" stop-color="#4cc2ff"/>
-      <stop offset="1" stop-color="#b9ecff"/>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#1f8fd6"/>
+      <stop offset="0.48" stop-color="#4cc2ff"/>
+      <stop offset="0.8" stop-color="#a8e2ff"/>
+      <stop offset="1" stop-color="#e4f8ff"/>
     </linearGradient>
     <radialGradient id="sunG2" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
@@ -20,18 +43,22 @@
       <stop offset="1" stop-color="#8fd8ff" stop-opacity="0.08"/>
     </radialGradient>
     <linearGradient id="panelG2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.46"/>
-      <stop offset="0.44" stop-color="#e2f5ff" stop-opacity="0.26"/>
-      <stop offset="1" stop-color="#a8e2ff" stop-opacity="0.48"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.52"/>
+      <stop offset="0.44" stop-color="#e2f5ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#a8e2ff" stop-opacity="0.5"/>
     </linearGradient>
     <linearGradient id="glassTopG2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.50"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
     </linearGradient>
-    <linearGradient id="sheenG2" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="sheenG2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="caustG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
     </linearGradient>
     <linearGradient id="barG" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#a5d610"/>
@@ -39,15 +66,15 @@
       <stop offset="1" stop-color="#00c8c8"/>
     </linearGradient>
     <linearGradient id="grassFarG2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#b6de1d"/>
+      <stop offset="0" stop-color="#c2e82e"/>
       <stop offset="1" stop-color="#6b9c0e"/>
     </linearGradient>
     <linearGradient id="grassNearG2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8ecb12"/>
+      <stop offset="0" stop-color="#9ad614"/>
       <stop offset="1" stop-color="#2f5410"/>
     </linearGradient>
     <filter id="panelShadow2" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#063a5e" flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#063a5e" flood-opacity="0.32"/>
     </filter>
     <clipPath id="cardClip">
       <rect x="0" y="0" width="520" height="380" rx="18"/>
@@ -55,6 +82,20 @@
     <clipPath id="panelClip2">
       <rect x="24" y="24" width="472" height="332" rx="20"/>
     </clipPath>
+    <g id="drop2">
+      <circle r="2.6" fill="#ffffff" opacity="0.26"/>
+      <circle r="2.6" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.6"/>
+      <circle cx="-0.9" cy="-0.95" r="0.9" fill="#ffffff" opacity="0.95"/>
+      <path d="M -2 1.5 A 2.6 2.6 0 0 0 2 1.5" stroke="#0a4d8c" stroke-width="0.5" fill="none" opacity="0.22"/>
+    </g>
+    <g id="star2">
+      <path d="M0 -3.6 L0.95 -0.95 L3.6 0 L0.95 0.95 L0 3.6 L-0.95 0.95 L-3.6 0 L-0.95 -0.95 Z" fill="#ffffff"/>
+    </g>
+    <g id="tuft2">
+      <path d="M0 0 Q-3 -9 -6 -12 Q-2 -8 -1 0 Z"/>
+      <path d="M0 0 Q0 -11 1 -15 Q3 -9 3 0 Z"/>
+      <path d="M2 0 Q5 -8 9 -11 Q5 -5 4 0 Z"/>
+    </g>
   </defs>
 
   <g clip-path="url(#cardClip)">
@@ -62,20 +103,49 @@
     <circle cx="452" cy="300" r="248" fill="none" stroke="#f7941e" stroke-width="10" opacity="0.14"/>
     <circle cx="452" cy="300" r="234" fill="none" stroke="#a5d610" stroke-width="10" opacity="0.13"/>
     <circle cx="430" cy="52" r="96" fill="url(#sunG2)"/>
+    <circle cx="345" cy="74" r="7" fill="#ffffff" opacity="0.14"/>
+    <circle cx="292" cy="92" r="4.5" fill="#7df9ff" opacity="0.15"/>
 
-    <path d="M 0 380.0 L 10 380.0 L 20 380.0 L 30 380.0 L 40 380.0 L 50 380.0 L 60 380.0 L 70 379.9 L 80 379.5 L 90 378.9 L 100 378.1 L 110 377.1 L 120 375.8 L 130 374.3 L 140 372.7 L 150 370.9 L 160 369.0 L 170 366.9 L 180 364.8 L 190 362.6 L 200 360.3 L 210 358.0 L 220 355.7 L 230 353.4 L 240 351.2 L 250 349.1 L 260 347.0 L 270 345.1 L 280 343.3 L 290 341.7 L 300 340.2 L 310 338.9 L 320 337.9 L 330 337.1 L 340 336.5 L 350 336.1 L 360 336.0 L 370 336.1 L 380 336.5 L 390 337.1 L 400 337.9 L 410 338.9 L 420 340.2 L 430 341.7 L 440 343.3 L 450 345.1 L 460 347.0 L 470 349.1 L 480 351.2 L 490 353.4 L 500 355.7 L 510 358.0 L 520 360.3 L 520 380 L 0 380 Z" fill="url(#grassFarG2)"/>
-    <g fill="#7ab800" opacity="0.95"><path d="M 149.8 374.0 Q 154.0 363.9 154.0 360.1 Q 153.0 365.0 156.1 374.0 Z"/><path d="M 159.6 372.1 Q 163.9 362.6 163.9 359.1 Q 164.3 363.6 168.9 372.1 Z"/><path d="M 183.6 367.0 Q 190.4 358.7 190.4 355.8 Q 188.5 359.5 193.3 367.0 Z"/><path d="M 197.0 364.0 Q 199.3 356.4 199.3 353.9 Q 200.9 357.1 204.8 364.0 Z"/><path d="M 215.2 359.8 Q 221.8 351.3 221.8 348.4 Q 220.0 352.2 224.7 359.8 Z"/><path d="M 224.6 357.6 Q 227.2 350.0 227.2 347.6 Q 229.5 350.7 234.4 357.6 Z"/><path d="M 240.6 354.1 Q 248.5 346.1 248.5 343.4 Q 244.6 346.9 248.5 354.1 Z"/><path d="M 256.2 350.8 Q 259.8 343.0 259.8 340.4 Q 261.3 343.7 266.3 350.8 Z"/><path d="M 273.7 347.4 Q 276.1 336.6 276.1 332.5 Q 277.0 337.8 280.3 347.4 Z"/><path d="M 287.6 345.0 Q 295.3 334.7 295.3 330.7 Q 292.3 335.8 296.9 345.0 Z"/><path d="M 306.4 342.4 Q 307.9 332.2 307.9 328.4 Q 310.8 333.3 315.3 342.4 Z"/><path d="M 323.4 340.6 Q 329.1 331.2 329.1 327.7 Q 326.9 332.2 330.3 340.6 Z"/><path d="M 339.0 339.5 Q 343.0 332.0 343.0 329.5 Q 344.3 332.7 349.6 339.5 Z"/><path d="M 352.3 339.1 Q 352.9 328.7 352.9 324.7 Q 355.5 329.8 358.7 339.1 Z"/><path d="M 372.9 339.2 Q 374.5 330.7 374.5 327.8 Q 378.4 331.6 383.9 339.2 Z"/><path d="M 383.9 339.7 Q 388.7 329.7 388.7 325.9 Q 387.4 330.8 390.8 339.7 Z"/><path d="M 397.0 340.6 Q 401.9 332.8 401.9 330.2 Q 401.7 333.6 406.4 340.6 Z"/><path d="M 414.6 342.5 Q 419.1 331.9 419.1 327.9 Q 417.3 333.1 419.9 342.5 Z"/><path d="M 437.5 345.8 Q 444.4 337.4 444.4 334.4 Q 441.6 338.2 445.7 345.8 Z"/><path d="M 452.2 348.5 Q 459.2 339.1 459.2 335.6 Q 457.6 340.0 463.0 348.5 Z"/><path d="M 465.0 351.0 Q 468.6 343.1 468.6 340.5 Q 468.4 343.9 471.7 351.0 Z"/><path d="M 477.0 353.5 Q 478.9 345.2 478.9 342.3 Q 481.8 346.0 486.6 353.5 Z"/><path d="M 492.1 356.9 Q 498.1 348.3 498.1 345.3 Q 497.0 349.1 501.9 356.9 Z"/><path d="M 511.2 361.3 Q 518.2 353.4 518.2 350.8 Q 514.6 354.2 518.0 361.3 Z"/></g>
-    <path d="M 0 364.5 L 10 363.2 L 20 362.0 L 30 360.9 L 40 359.8 L 50 358.8 L 60 357.8 L 70 357.0 L 80 356.2 L 90 355.5 L 100 355.0 L 110 354.6 L 120 354.2 L 130 354.1 L 140 354.0 L 150 354.1 L 160 354.2 L 170 354.6 L 180 355.0 L 190 355.5 L 200 356.2 L 210 357.0 L 220 357.8 L 230 358.8 L 240 359.8 L 250 360.9 L 260 362.0 L 270 363.2 L 280 364.5 L 290 365.7 L 300 367.0 L 310 368.3 L 320 369.5 L 330 370.8 L 340 372.0 L 350 373.1 L 360 374.2 L 370 375.2 L 380 376.2 L 390 377.0 L 400 377.8 L 410 378.5 L 420 379.0 L 430 379.4 L 440 379.8 L 450 379.9 L 460 380.0 L 470 380.0 L 480 380.0 L 490 380.0 L 500 380.0 L 510 380.0 L 520 380.0 L 520 380 L 0 380 Z" fill="url(#grassNearG2)"/>
-    <g fill="#4d7a10" opacity="0.95"><path d="M 8.5 366.4 Q 9.9 356.9 9.9 353.4 Q 12.6 357.9 16.7 366.4 Z"/><path d="M 16.1 365.5 Q 19.8 354.2 19.8 349.7 Q 19.4 355.4 22.8 365.5 Z"/><path d="M 31.2 363.7 Q 34.6 352.7 34.6 348.3 Q 36.1 353.9 41.0 363.7 Z"/><path d="M 44.5 362.3 Q 50.8 352.8 50.8 349.3 Q 48.9 353.8 53.3 362.3 Z"/><path d="M 58.5 360.9 Q 64.4 350.5 64.4 346.5 Q 63.1 351.7 67.7 360.9 Z"/><path d="M 74.6 359.6 Q 78.0 348.8 78.0 344.5 Q 78.8 350.0 83.0 359.6 Z"/><path d="M 83.1 359.0 Q 86.8 349.9 86.8 346.7 Q 88.3 350.8 93.4 359.0 Z"/><path d="M 100.2 358.0 Q 100.9 347.1 100.9 342.8 Q 104.5 348.3 108.8 358.0 Z"/><path d="M 111.7 357.5 Q 118.2 346.0 118.2 341.5 Q 114.5 347.3 117.4 357.5 Z"/><path d="M 126.1 357.1 Q 128.3 347.9 128.3 344.6 Q 130.7 348.9 135.4 357.1 Z"/><path d="M 140.3 357.0 Q 145.1 345.8 145.1 341.4 Q 143.0 347.1 145.8 357.0 Z"/><path d="M 152.3 357.1 Q 156.4 345.6 156.4 341.0 Q 157.6 346.9 162.8 357.1 Z"/><path d="M 165.1 357.4 Q 170.5 347.8 170.5 344.3 Q 170.0 348.8 175.0 357.4 Z"/><path d="M 183.7 358.2 Q 191.1 348.9 191.1 345.6 Q 187.7 349.9 191.6 358.2 Z"/><path d="M 196.1 358.9 Q 201.0 347.4 201.0 342.7 Q 198.8 348.7 201.6 358.9 Z"/><path d="M 213.2 360.2 Q 217.3 350.5 217.3 346.9 Q 215.9 351.5 218.6 360.2 Z"/><path d="M 218.5 360.7 Q 224.6 350.7 224.6 346.9 Q 223.3 351.8 228.1 360.7 Z"/><path d="M 236.1 362.4 Q 243.0 351.4 243.0 347.0 Q 241.1 352.6 246.0 362.4 Z"/><path d="M 248.4 363.7 Q 253.0 354.6 253.0 351.4 Q 252.9 355.6 257.4 363.7 Z"/><path d="M 263.8 365.5 Q 265.5 356.5 265.5 353.3 Q 269.1 357.4 274.5 365.5 Z"/><path d="M 276.5 367.0 Q 279.8 357.8 279.8 354.5 Q 279.9 358.8 283.4 367.0 Z"/><path d="M 290.0 368.7 Q 296.2 359.4 296.2 356.0 Q 293.9 360.4 297.8 368.7 Z"/><path d="M 298.1 369.8 Q 302.7 358.4 302.7 353.9 Q 303.4 359.7 308.7 369.8 Z"/><path d="M 320.4 372.6 Q 324.2 362.7 324.2 359.0 Q 323.8 363.8 327.1 372.6 Z"/><path d="M 328.0 373.5 Q 334.6 364.3 334.6 360.9 Q 332.3 365.3 336.6 373.5 Z"/><path d="M 342.0 375.2 Q 347.2 364.6 347.2 360.5 Q 346.2 365.8 350.4 375.2 Z"/></g>
-
+    <path d="M0 380 L60 380 C 150 379 210 340 300 336 C 380 333 450 352 520 362 L520 380 Z" fill="url(#grassFarG2)"/>
+    <g fill="#7ab800" opacity="0.95">
+      <use href="#tuft2" transform="translate(155 372) scale(1.1)"/>
+      <use href="#tuft2" transform="translate(205 356) scale(1.3)"/>
+      <use href="#tuft2" transform="translate(262 342) scale(1.15)"/>
+      <use href="#tuft2" transform="translate(322 336) scale(1.35)"/>
+      <use href="#tuft2" transform="translate(388 342) scale(1.1)"/>
+      <use href="#tuft2" transform="translate(452 354) scale(1.25)"/>
+    </g>
+    <path d="M0 364 C 70 358 130 354 150 354 C 250 353 320 366 400 374 C 450 379 490 380 520 380 L520 380 L0 380 Z" fill="url(#grassNearG2)"/>
+    <g fill="#4d7a10" opacity="0.95">
+      <use href="#tuft2" transform="translate(10 365) scale(1.2)"/>
+      <use href="#tuft2" transform="translate(48 360) scale(1.4)"/>
+      <use href="#tuft2" transform="translate(96 356) scale(1.2)"/>
+      <use href="#tuft2" transform="translate(150 354) scale(1.45)"/>
+      <use href="#tuft2" transform="translate(214 357) scale(1.2)"/>
+      <use href="#tuft2" transform="translate(284 364) scale(1.35)"/>
+      <use href="#tuft2" transform="translate(356 372) scale(1.15)"/>
+    </g>
     <g>
+      <use href="#star2" class="tw1" transform="translate(120 358) scale(0.8)"/>
+      <use href="#star2" class="tw2" transform="translate(250 356) scale(0.65)"/>
+      <use href="#star2" class="tw1" transform="translate(380 340) scale(0.7)"/>
+      <use href="#star2" class="tw2" transform="translate(465 358) scale(0.75)"/>
+    </g>
+
+    <g class="float-a">
       <circle cx="404" cy="150" r="34" fill="url(#bubbleG2)"/>
       <circle cx="404" cy="150" r="34" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.7"/>
       <ellipse cx="392" cy="136" rx="10" ry="6" fill="#ffffff" opacity="0.9" transform="rotate(-22 392 136)"/>
+    </g>
+    <g class="float-b">
       <circle cx="452" cy="238" r="18" fill="url(#bubbleG2)"/>
       <circle cx="452" cy="238" r="18" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.65"/>
+      <ellipse cx="446" cy="230.5" rx="5" ry="3.1" fill="#ffffff" opacity="0.88" transform="rotate(-22 446 230.5)"/>
+    </g>
+    <g class="float-c">
       <circle cx="368" cy="272" r="11" fill="url(#bubbleG2)"/>
       <circle cx="368" cy="272" r="11" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+      <ellipse cx="364.3" cy="267.6" rx="3.1" ry="1.9" fill="#ffffff" opacity="0.85" transform="rotate(-22 364.3 267.6)"/>
     </g>
   </g>
 
@@ -84,13 +154,42 @@
   </g>
   <g clip-path="url(#panelClip2)">
     <rect x="24" y="24" width="472" height="156" fill="url(#glassTopG2)"/>
-    <rect x="0" y="-80" width="110" height="560" fill="url(#sheenG2)" opacity="0.38" transform="rotate(24 55 200)"/>
-    <rect x="24" y="318" width="472" height="38" fill="#ffffff" opacity="0.16"/>
+    <g transform="rotate(24 55 200)">
+      <g class="sheen">
+        <rect x="0" y="-90" width="100" height="580" fill="url(#sheenG2)"/>
+      </g>
+    </g>
+    <rect x="24" y="316" width="472" height="40" fill="url(#caustG2)" opacity="0.5"/>
   </g>
   <rect x="24" y="24" width="472" height="332" rx="20" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.6"/>
 
+  <g>
+    <use href="#drop2" transform="translate(64 38) scale(1.1)"/>
+    <use href="#drop2" transform="translate(128 34) scale(0.75)"/>
+    <use href="#drop2" transform="translate(214 40) scale(0.95)"/>
+    <use href="#drop2" transform="translate(330 36) scale(0.8)"/>
+    <use href="#drop2" transform="translate(452 42) scale(1.15)"/>
+    <use href="#drop2" transform="translate(478 120) scale(0.8)"/>
+    <use href="#drop2" transform="translate(40 250) scale(0.85)"/>
+    <use href="#drop2" transform="translate(480 300) scale(1)"/>
+  </g>
+
   <text x="48" y="74" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="21" font-weight="700" fill="#063a5e">Áreas de trabajo</text>
   <text x="48" y="97" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="13.5" fill="#0a4d8c" opacity="0.72">Diseño, frontend y automatización</text>
-  <text x="48" y="134" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Diseño UI/UX y design systems</text><text x="48" y="178" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Frontend con React y Tailwind</text><text x="48" y="222" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Identidad visual y landings</text><text x="48" y="266" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Producto y MVPs</text><text x="48" y="310" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Automatización e IA aplicada</text>
-  <rect x="48" y="144" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/><rect x="48" y="144" width="403" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="146" width="393" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/><rect x="48" y="188" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/><rect x="48" y="188" width="382" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="190" width="372" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/><rect x="48" y="232" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/><rect x="48" y="232" width="360" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="234" width="350" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/><rect x="48" y="276" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/><rect x="48" y="276" width="331" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="278" width="321" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/><rect x="48" y="320" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/><rect x="48" y="320" width="297" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="322" width="287" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/>
+  <text x="48" y="134" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Diseño UI/UX y design systems</text>
+  <text x="48" y="178" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Frontend con React y Tailwind</text>
+  <text x="48" y="222" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Identidad visual y landings</text>
+  <text x="48" y="266" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Producto y MVPs</text>
+  <text x="48" y="310" font-family="'Segoe UI', Frutiger, 'Trebuchet MS', system-ui, sans-serif" font-size="15" font-weight="600" fill="#063a5e">Automatización e IA aplicada</text>
+
+  <rect x="48" y="144" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/>
+  <g class="bar b1"><rect x="48" y="144" width="403" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="146" width="393" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/></g>
+  <rect x="48" y="188" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/>
+  <g class="bar b2"><rect x="48" y="188" width="382" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="190" width="372" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/></g>
+  <rect x="48" y="232" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/>
+  <g class="bar b3"><rect x="48" y="232" width="360" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="234" width="350" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/></g>
+  <rect x="48" y="276" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/>
+  <g class="bar b4"><rect x="48" y="276" width="331" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="278" width="321" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/></g>
+  <rect x="48" y="320" width="424" height="12" rx="6" fill="#0a4d8c" opacity="0.15" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1"/>
+  <g class="bar b5"><rect x="48" y="320" width="297" height="12" rx="6" fill="url(#barG)"/><rect x="53" y="322" width="287" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/></g>
 </svg>
