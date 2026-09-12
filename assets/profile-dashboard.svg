@@ -6,7 +6,7 @@
     .float-a{animation:floatA 6.8s ease-in-out infinite}
     .float-b{animation:floatA 8.6s ease-in-out -2.6s infinite}
     .float-c{animation:floatA 7.4s ease-in-out -4.3s infinite}
-    .sheen{animation:sweep 9s ease-in-out 2s infinite}
+    .sheen{animation:sweep 9s ease-in-out 2s infinite both}
     .tw1{animation:tw 3.6s ease-in-out infinite}
     .tw2{animation:tw 4.4s ease-in-out -1.6s infinite}
     .bar{transform-box:fill-box;transform-origin:left center;animation:barIn 1.15s cubic-bezier(.25,.9,.3,1) both}
@@ -16,7 +16,7 @@
     .b4{animation-delay:.6s}
     .b5{animation-delay:.75s}
     @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
-    @keyframes sweep{0%{transform:translateX(-220px)}40%{transform:translateX(620px)}100%{transform:translateX(620px)}}
+    @keyframes sweep{0%{transform:translateX(0)}40%{transform:translateX(820px)}100%{transform:translateX(820px)}}
     @keyframes tw{0%,100%{opacity:.12}50%{opacity:.9}}
     @keyframes barIn{from{transform:scaleX(0)}to{transform:scaleX(1)}}
     @media (prefers-reduced-motion: reduce){
@@ -156,7 +156,7 @@
     <rect x="24" y="24" width="472" height="156" fill="url(#glassTopG2)"/>
     <g transform="rotate(24 55 200)">
       <g class="sheen">
-        <rect x="0" y="-90" width="100" height="580" fill="url(#sheenG2)"/>
+        <rect x="-280" y="-90" width="100" height="580" fill="url(#sheenG2)"/>
       </g>
     </g>
     <rect x="24" y="316" width="472" height="40" fill="url(#caustG2)" opacity="0.5"/>

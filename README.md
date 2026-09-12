@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Victor Banchón, CodiDevs: diseño de interfaces y desarrollo frontend en Manta, Ecuador" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/profile-banner.svg" alt="Victor Banchón, CodiDevs: diseño de interfaces y desarrollo frontend en Manta, Ecuador" width="100%">
 </p>
 
 <p align="center">
@@ -31,13 +31,13 @@
       </p>
     </td>
     <td width="42%">
-      <img src="./assets/profile-dashboard.svg" alt="Áreas de trabajo: diseño UI/UX, frontend, identidad visual, producto y automatización">
+      <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/profile-dashboard.svg" alt="Áreas de trabajo: diseño UI/UX, frontend, identidad visual, producto y automatización" width="100%">
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="./assets/aero-divider.svg" alt="" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/aero-divider.svg" alt="" width="100%">
 </p>
 
 ## CodiDevs
@@ -125,14 +125,14 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VxGM/VxGM/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VxGM/VxGM/output/github-contribution-grid-snake.svg">
-    <img alt="Animación de la serpiente sobre el gráfico de contribuciones" src="https://raw.githubusercontent.com/VxGM/VxGM/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/VxGM/VxGM@output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/VxGM/VxGM@output/github-contribution-grid-snake.svg">
+    <img alt="Animación de la serpiente sobre el gráfico de contribuciones" src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@output/github-contribution-grid-snake.svg">
   </picture>
 </p>
 
 <p align="center">
-  <img src="./assets/aero-divider.svg" alt="" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/aero-divider.svg" alt="" width="100%">
 </p>
 
 ## Contacto
