@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/profile-banner.svg" alt="Victor Banchón, CodiDevs: diseño de interfaces y desarrollo frontend en Manta, Ecuador" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/profile-banner.svg" alt="Victor Banchón, CodiDevs: diseño de interfaces y desarrollo frontend en Manta, Ecuador" width="100%">
 </p>
 
+<!-- Los 3 assets van pinneados a un commit, no a @main: jsDelivr cachea las ramas 12h (y 7 dias aguas abajo), asi que con @main los cambios no se ven aunque pushees. Si tocás un SVG, actualizá el SHA en las 3 URLs de assets. -->
 <p align="center">
   <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/codidevs.com-0078D7?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Sitio de CodiDevs"></a>
   <a href="https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-2F9FE0?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn de Victor Banchón"></a>
@@ -31,13 +32,13 @@
       </p>
     </td>
     <td width="42%">
-      <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/profile-dashboard.svg" alt="Áreas de trabajo: diseño UI/UX, frontend, identidad visual, producto y automatización" width="100%">
+      <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/profile-dashboard.svg" alt="Áreas de trabajo: diseño UI/UX, frontend, identidad visual, producto y automatización" width="100%">
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/aero-divider.svg" alt="" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/aero-divider.svg" alt="" width="100%">
 </p>
 
 ## CodiDevs
@@ -132,7 +133,7 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@main/assets/aero-divider.svg" alt="" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/aero-divider.svg" alt="" width="100%">
 </p>
 
 ## Contacto
