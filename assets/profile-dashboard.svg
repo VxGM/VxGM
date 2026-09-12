@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="dashTitle dashDesc">
+  <title id="dashTitle">Áreas de trabajo de Victor Banchón</title>
+  <desc id="dashDesc">Gráfico de áreas de trabajo: diseño UI/UX y design systems, frontend con React y Tailwind, producto y MVPs, automatización e IA aplicada, identidad visual y landings.</desc>
+
+  <rect width="520" height="380" rx="14" fill="#0E1A2E" stroke="#1F3864" stroke-width="1"/>
+  <rect x="0" y="0" width="520" height="3" rx="1.5" fill="#C9A227" opacity="0.75"/>
+
+  <text x="28" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#EEF2F9">Áreas de trabajo</text>
+  <text x="28" y="82" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="14" fill="#6C7C9C">Diseño, frontend y automatización</text>
+
+  <text x="28" y="126" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="15" fill="#EEF2F9">Diseño UI/UX y design systems</text>
+  <rect x="28" y="142" width="464" height="6" rx="3" fill="#1F3864"/>
+  <rect x="28" y="142" width="441" height="6" rx="3" fill="#C9A227"/>
+
+  <text x="28" y="176" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="15" fill="#EEF2F9">Frontend con React y Tailwind</text>
+  <rect x="28" y="192" width="464" height="6" rx="3" fill="#1F3864"/>
+  <rect x="28" y="192" width="418" height="6" rx="3" fill="#C9A227"/>
+
+  <text x="28" y="226" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="15" fill="#EEF2F9">Identidad visual y landings</text>
+  <rect x="28" y="242" width="464" height="6" rx="3" fill="#1F3864"/>
+  <rect x="28" y="242" width="394" height="6" rx="3" fill="#C9A227"/>
+
+  <text x="28" y="276" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="15" fill="#EEF2F9">Producto y MVPs</text>
+  <rect x="28" y="292" width="464" height="6" rx="3" fill="#1F3864"/>
+  <rect x="28" y="292" width="362" height="6" rx="3" fill="#C9A227"/>
+
+  <text x="28" y="326" font-family="Calibri, 'Segoe UI', system-ui, sans-serif" font-size="15" fill="#EEF2F9">Automatización e IA aplicada</text>
+  <rect x="28" y="342" width="464" height="6" rx="3" fill="#1F3864"/>
+  <rect x="28" y="342" width="325" height="6" rx="3" fill="#C9A227"/>
+</svg>
