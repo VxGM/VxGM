@@ -1,43 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Divisor decorativo estilo Frutiger Aero: olas de vidrio con burbujas ascendentes y destellos de sol">
   <style>
-    .wave-a{animation:drift 11s ease-in-out infinite}
-    .wave-b{animation:drift 14s ease-in-out -4s infinite}
-    .wave-c{animation:drift 9s ease-in-out -2s infinite}
-    .r1{animation:rise 6s linear infinite}
-    .r2{animation:rise 7.5s linear -1.8s infinite}
-    .r3{animation:rise 5.4s linear -3.1s infinite}
-    .r4{animation:rise 8.4s linear -0.9s infinite}
-    .r5{animation:rise 6.8s linear -4.4s infinite}
-    .r6{animation:rise 9.2s linear -2.5s infinite}
-    .r7{animation:rise 7s linear -5.2s infinite}
+    .wave-a{animation:drift 7.4s ease-in-out infinite}
+    .wave-b{animation:drift 9.6s ease-in-out -3s infinite}
+    .wave-c{animation:drift 6.4s ease-in-out -1.6s infinite}
+    .r1{animation:rise 4.2s linear infinite}
+    .r2{animation:rise 5.1s linear -1.2s infinite}
+    .r3{animation:rise 3.8s linear -2.1s infinite}
+    .r4{animation:rise 5.8s linear -.6s infinite}
+    .r5{animation:rise 4.7s linear -3s infinite}
+    .r6{animation:rise 6.3s linear -1.7s infinite}
+    .r7{animation:rise 4.9s linear -3.6s infinite}
+    .sp1{animation:tw 2.2s ease-in-out infinite}
+    .sp2{animation:tw 3s ease-in-out -.8s infinite}
+    .sp3{animation:tw 2.6s ease-in-out -1.5s infinite}
+    .sp4{animation:tw 3.4s ease-in-out -.4s infinite}
     .tw1{animation:tw 3.2s ease-in-out infinite}
     .tw2{animation:tw 4.1s ease-in-out -1.5s infinite}
-    .tw3{animation:tw 2.7s ease-in-out -0.7s infinite}
+    .tw3{animation:tw 2.7s ease-in-out -.7s infinite}
+    .glint3{animation:glint3 5.5s linear infinite}
     @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(-14px)}}
-    @keyframes rise{0%{transform:translateY(34px);opacity:0}18%{opacity:.8}78%{opacity:.55}100%{transform:translateY(-30px);opacity:0}}
-    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.95}}
-    @media (prefers-reduced-motion: reduce){
-      .wave-a,.wave-b,.wave-c,.r1,.r2,.r3,.r4,.r5,.r6,.r7,.tw1,.tw2,.tw3{animation:none}
-    }
+    @keyframes rise{0%{transform:translateY(34px);opacity:0}18%{opacity:.85}78%{opacity:.6}100%{transform:translateY(-30px);opacity:0}}
+    @keyframes tw{0%,100%{opacity:.12}50%{opacity:1}}
+    @keyframes glint3{0%{transform:translateX(0)}60%{transform:translateX(1560px)}100%{transform:translateX(1560px)}}
   </style>
 
   <defs>
     <linearGradient id="sky3" x1="0" y1="0" x2="0.5" y2="1">
-      <stop offset="0" stop-color="#3fb0f0"/>
-      <stop offset="0.55" stop-color="#7cd4ff"/>
-      <stop offset="1" stop-color="#cfeeff"/>
+      <stop offset="0" stop-color="#2b93d8"/>
+      <stop offset="0.55" stop-color="#74cdfb"/>
+      <stop offset="1" stop-color="#a8e4ff"/>
     </linearGradient>
     <linearGradient id="wave1G" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#6fc9f7" stop-opacity="0.4"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#4fb4ec" stop-opacity="0.5"/>
     </linearGradient>
     <linearGradient id="wave2G" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d6f2ff" stop-opacity="0.7"/>
-      <stop offset="1" stop-color="#3fb0f0" stop-opacity="0.55"/>
+      <stop offset="0" stop-color="#bfe9ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#1a86cf" stop-opacity="0.7"/>
     </linearGradient>
     <linearGradient id="wave3G" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e9f9ff" stop-opacity="0.92"/>
-      <stop offset="1" stop-color="#2f9fe0" stop-opacity="0.7"/>
+      <stop offset="0" stop-color="#eaf9ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0d6fbd" stop-opacity="0.88"/>
     </linearGradient>
     <radialGradient id="sunG3" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
@@ -90,4 +93,22 @@
     <use href="#star3" class="tw2" transform="translate(660 58) scale(0.6)"/>
   </g>
   <rect x="0.6" y="0.6" width="1198.8" height="70.8" rx="17.4" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.2"/>
+
+  <defs>
+    <linearGradient id="glintG3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <g id="spark3"><path d="M0 -7 L1.7 -1.7 L7 0 L1.7 1.7 L0 7 L-1.7 1.7 L-7 0 L-1.7 -1.7 Z" fill="#ffffff"/></g>
+  </defs>
+
+  <g clip-path="url(#divClip)">
+    <g class="glint3"><rect x="-260" y="0" width="240" height="72" fill="url(#glintG3)"/></g>
+    <use href="#spark3" class="sp1" transform="translate(240,26)"/>
+    <use href="#spark3" class="sp2" transform="translate(470,44) scale(0.75)"/>
+    <use href="#spark3" class="sp3" transform="translate(700,22) scale(0.85)"/>
+    <use href="#spark3" class="sp4" transform="translate(980,38) scale(0.7)"/>
+    <use href="#spark3" class="sp1" transform="translate(1120,20) scale(0.6)"/>
+  </g>
 </svg>
