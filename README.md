@@ -89,7 +89,7 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,html,css,js,ts,react,next,tailwind,nodejs,supabase,postgres,vercel,git,github,n8n,openai&perline=8&theme=light" alt="Tecnologías que uso">
+  <img src="https://skillicons.dev/icons?i=figma,vite,js,ts,react,next,tailwind,html,css,nodejs,supabase,postgres,vercel,docker,git,github&perline=8&theme=light" alt="Tecnologías que uso">
 </p>
 
 <table>
@@ -114,13 +114,13 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 ## Actividad
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=VxGM&show_icons=true&include_all_commits=true&bg_color=EAF8FF&title_color=0078D7&text_color=063A5E&icon_color=7AB800&border_color=4CC2FF&border_radius=14&custom_title=Actividad%20en%20GitHub" alt="Estadísticas de GitHub">
-  <img width="49%" src="https://streak-stats.demolab.com?user=VxGM&border_radius=14&background=EAF8FF&border=4CC2FF&stroke=4CC2FF&ring=0078D7&fire=F7941E&currStreakLabel=0078D7&sideLabels=063A5E&dates=6C8CA8&currStreakNum=063A5E&sideNums=063A5E" alt="Racha de contribuciones">
+  <a href="https://github.com/VxGM?tab=followers"><img src="https://img.shields.io/github/followers/VxGM?style=for-the-badge&label=Seguidores&color=0078D7&labelColor=063A5E&logo=github" alt="Seguidores en GitHub"></a>
+  <a href="https://github.com/VxGM/VxGM/stargazers"><img src="https://img.shields.io/github/stars/VxGM/VxGM?style=for-the-badge&label=Estrellas&color=7AB800&labelColor=063A5E&logo=github" alt="Estrellas del repositorio de perfil"></a>
+  <a href="https://github.com/VxGM/VxGM/commits/main"><img src="https://img.shields.io/github/last-commit/VxGM/VxGM?style=for-the-badge&label=%C3%9Altimo%20commit&color=00C8C8&labelColor=063A5E&logo=git" alt="Último commit"></a>
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VxGM&layout=compact&langs_count=8&bg_color=EAF8FF&title_color=0078D7&text_color=063A5E&border_color=4CC2FF&border_radius=14" alt="Lenguajes principales">
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VxGM&radius=14&area=true&bg_color=EAF8FF&color=0078D7&line=7AB800&point=00C8C8&title_color=0078D7&border_color=4CC2FF&custom_title=Pulso%20de%20contribuciones" alt="Gráfico de actividad de contribuciones">
+  <img width="100%" src="https://streak-stats.demolab.com?user=VxGM&border_radius=14&background=EAF8FF&border=4CC2FF&stroke=4CC2FF&ring=0078D7&fire=F7941E&currStreakLabel=0078D7&sideLabels=063A5E&dates=6C8CA8&currStreakNum=063A5E&sideNums=063A5E" alt="Racha de contribuciones">
 </p>
 
 <p align="center">
