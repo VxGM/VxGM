@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/codidevs.com-1F3864?style=for-the-badge&logo=googlechrome&logoColor=C9A227" alt="Sitio de CodiDevs"></a>
-  <a href="https://www.linkedin.com/in/TU-USUARIO"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-1F3864?style=for-the-badge&logo=linkedin&logoColor=C9A227" alt="LinkedIn de Victor Banchón"></a>
+  <a href="https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-1F3864?style=for-the-badge&logo=linkedin&logoColor=C9A227" alt="LinkedIn de Victor Banchón"></a>
   <a href="https://www.instagram.com/vcrthor/"><img src="https://img.shields.io/badge/Instagram-vcrthor-1F3864?style=for-the-badge&logo=instagram&logoColor=C9A227" alt="Instagram de Victor Banchón"></a>
   <a href="https://github.com/VxGM?tab=followers"><img src="https://img.shields.io/github/followers/VxGM?label=Seguidores&style=for-the-badge&logo=github&color=C9A227&labelColor=1F3864" alt="Seguidores en GitHub"></a>
   <a href="https://github.com/VxGM"><img src="https://komarev.com/ghpvc/?username=VxGM&style=for-the-badge&color=C9A227&label=VISTAS+AL+PERFIL" alt="Vistas al perfil"></a>
