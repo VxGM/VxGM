@@ -1,43 +1,51 @@
-<div align="center">
-
 ```text
-██╗   ██╗ ██╗  ██╗  ██████╗  ██╗  ██╗  ██╗
-██║   ██║ ╚██╗██╔╝ ██╔════╝  ██║  ╚██╗██╔╝
-██║   ██║  ╚███╔╝  ██║  ██╗  ██║  ╚████╔╝ 
-╚██╗ ██╔╝  ██╔██╗  ██║   ██║ ██║   ████╔╝ 
- ╚████╔╝  ██╔╝ ██╗ ██╚████╔╝ ██║  ██╔╝ ██╗
-  ╚═══╝   ╚═╝  ╚═╝  ╚═════╝  ╚═╝  ╚═╝  ╚═╝
+╔═ VxGM ════════════════════════════════════════════════════════╗
+║        ██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗          ║
+║        ██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗         ║
+║        ██║   ██║██║██║        ██║   ██║   ██║██████╔╝         ║
+║        ╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗         ║
+║         ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║         ║
+║          ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝         ║
+║                                                               ║
+║                                            ▄▄▄▄▄▄▄            ║
+║ ██████╗  █████╗ ███╗   ██╗ ██████╗██╗  ██╗ ██████╗ ███╗   ██╗ ║
+║ ██╔══██╗██╔══██╗████╗  ██║██╔════╝██║  ██║██╔═══██╗████╗  ██║ ║
+║ ██████╔╝███████║██╔██╗ ██║██║     ███████║██║   ██║██╔██╗ ██║ ║
+║ ██╔══██╗██╔══██║██║╚██╗██║██║     ██╔══██║██║   ██║██║╚██╗██║ ║
+║ ██████╔╝██║  ██║██║ ╚████║╚██████╗██║  ██║╚██████╔╝██║ ╚████║ ║
+║ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
 [ codidevs.com ](https://codidevs.com/) · [ LinkedIn ](https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/) · [ Instagram ](https://www.instagram.com/vcrthor/)
 
-</div>
-
 ```text
-┌─ about ────────────────────────────────────────────────┐
-│  VICTOR BANCHÓN                                        │
-│  Ingeniero en Tecnologías de la Información · ULEAM    │
-│  Manta, Ecuador                                        │
-│                                                        │
-├────────────────────────────────────────────────────────┤
-│  » Diseño la interfaz, construyo el frontend           │
-│    y dejo el sistema funcionando.                      │
-│                                                        │
-│  » Fundé CodiDevs: sistemas internos, CRMs,            │
-│    portales de operaciones y automatizaciones          │
-│    para empresas.                                      │
-│                                                        │
-│  » Entiendo el proceso real del cliente, lo            │
-│    ordeno en pantallas y recién ahí escribo            │
-│    código: Figma, React, Tailwind, Supabase.           │
-│                                                        │
-│  » Fuera del estudio: hackatones, donde más            │
-│    rápido aprendo qué NO construir.                    │
-└────────────────────────────────────────────────────────┘
+╔═ about ═══════════════════════════════════════════════════════╗
+║  VICTOR BANCHÓN                                               ║
+║  Ingeniero en Tecnologías de la Información · ULEAM           ║
+║  Manta, Ecuador · github.com/VxGM                             ║
+║                                                               ║
+╠═══════════════════════════════════════════════════════════════╣
+║  » Diseño la interfaz, construyo el frontend y dejo el        ║
+║    sistema funcionando.                                       ║
+║                                                               ║
+║  » Fundé CodiDevs: sistemas internos, CRMs, portales de       ║
+║    operaciones y automatizaciones para empresas.              ║
+║                                                               ║
+║  » Entiendo el proceso real del cliente, lo ordeno en         ║
+║    pantallas claras y recién ahí escribo el código:           ║
+║    Figma → React → Tailwind → Supabase → APIs.                ║
+║                                                               ║
+║  » Fuera del estudio: hackatones, donde más rápido            ║
+║    aprendo qué NO construir.                                  ║
+║                                                               ║
+║  » ¿Tienes datos copiando entre Excel y WhatsApp?             ║
+║    Eso tiene solución. → codidevs.com                         ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ```text
-══════════════════════════════════════════════════════════
+════════════════════════════════╦════════════════════════════════
 ```
 
 ## CodiDevs
@@ -74,6 +82,10 @@ flowchart LR
   </tr>
 </table>
 
+```text
+════════════════════════════════╦════════════════════════════════
+```
+
 ## Productos y landings
 
 Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs).
@@ -85,6 +97,10 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 | [Destello-catalogo](https://github.com/CodiDevs/Destello-catalogo) | Catálogo digital para ventas | TypeScript |
 | [DemoLegalTech](https://github.com/CodiDevs/DemoLegalTech) | Producto demostrativo para el sector legal | TypeScript |
 | [landingMoonDevs](https://github.com/CodiDevs/landingMoonDevs) · [LandingGonzalez](https://github.com/CodiDevs/LandingGonzalez) · [Landing_Calvache](https://github.com/CodiDevs/Landing_Calvache) | Landings de clientes con foco en conversión | TypeScript, Tailwind CSS |
+
+```text
+════════════════════════════════╦════════════════════════════════
+```
 
 ## Stack
 
@@ -111,6 +127,10 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
   </tr>
 </table>
 
+```text
+════════════════════════════════╦════════════════════════════════
+```
+
 ## Actividad
 
 <p align="center">
@@ -131,7 +151,7 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
 </p>
 
 ```text
-══════════════════════════════════════════════════════════
+════════════════════════════════╦════════════════════════════════
 ```
 
 ## Contacto
