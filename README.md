@@ -1,45 +1,44 @@
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/profile-banner.svg" alt="Victor Banchón, CodiDevs: diseño de interfaces y desarrollo frontend en Manta, Ecuador" width="100%">
-</p>
+<div align="center">
 
-<!-- Los 3 assets van pinneados a un commit, no a @main: jsDelivr cachea las ramas 12h (y 7 dias aguas abajo), asi que con @main los cambios no se ven aunque pushees. Si tocás un SVG, actualizá el SHA en las 3 URLs de assets. -->
-<p align="center">
-  <a href="https://codidevs.com/"><img src="https://img.shields.io/badge/codidevs.com-0078D7?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Sitio de CodiDevs"></a>
-  <a href="https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/"><img src="https://img.shields.io/badge/LinkedIn-Victor_Banch%C3%B3n-2F9FE0?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn de Victor Banchón"></a>
-  <a href="https://www.instagram.com/vcrthor/"><img src="https://img.shields.io/badge/Instagram-vcrthor-00C8C8?style=for-the-badge&logo=instagram&logoColor=FFFFFF" alt="Instagram de Victor Banchón"></a>
-</p>
+```text
+██╗   ██╗ ██╗  ██╗  ██████╗  ██╗  ██╗  ██╗
+██║   ██║ ╚██╗██╔╝ ██╔════╝  ██║  ╚██╗██╔╝
+██║   ██║  ╚███╔╝  ██║  ██╗  ██║  ╚████╔╝ 
+╚██╗ ██╔╝  ██╔██╗  ██║   ██║ ██║   ████╔╝ 
+ ╚████╔╝  ██╔╝ ██╗ ██╚████╔╝ ██║  ██╔╝ ██╗
+  ╚═══╝   ╚═╝  ╚═╝  ╚═════╝  ╚═╝  ╚═╝  ╚═╝
+```
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=700&size=23&pause=900&color=2F9FE0&background=00000000&center=true&vCenter=true&width=900&lines=Ingeniero+en+Tecnolog%C3%ADas+de+la+Informaci%C3%B3n+(ULEAM);Dise%C3%B1o+interfaces+y+construyo+frontend;Producto+digital+para+empresas+en+Ecuador;Hackatones+y+equipos+que+env%C3%ADan" alt="Introducción animada de Victor Banchón">
-</p>
+[ codidevs.com ](https://codidevs.com/) · [ LinkedIn ](https://www.linkedin.com/in/victor-banch%C3%B3n-6881b2356/) · [ Instagram ](https://www.instagram.com/vcrthor/)
 
-<table>
-  <tr>
-    <td width="58%">
-      <h2>Diseño la interfaz, construyo el frontend y dejo el sistema funcionando</h2>
-      <p>
-        Soy <strong>Victor Banchón</strong>, Ingeniero en Tecnologías de la Información por la ULEAM, en Manta, Ecuador.
-        Fundé <strong>CodiDevs</strong>, donde diseñamos y desarrollamos software a medida para empresas:
-        sistemas internos, CRMs, portales de operaciones y automatizaciones que conectan las herramientas que ya usan.
-      </p>
-      <p>
-        Mi trabajo arranca en la experiencia. Entiendo el proceso real del cliente, lo ordeno en pantallas claras
-        y recién ahí escribo el código. Diseño en Figma, construyo en React y Tailwind, y conecto los datos con APIs,
-        Supabase y automatizaciones.
-      </p>
-      <p>
-        Fuera del estudio compito en hackatones, que es donde más rápido aprendo a decidir qué no construir.
-      </p>
-    </td>
-    <td width="42%">
-      <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/profile-dashboard.svg" alt="Áreas de trabajo: diseño UI/UX, frontend, identidad visual, producto y automatización" width="100%">
-    </td>
-  </tr>
-</table>
+</div>
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/aero-divider.svg" alt="" width="100%">
-</p>
+```text
+┌─ about ────────────────────────────────────────────────┐
+│  VICTOR BANCHÓN                                        │
+│  Ingeniero en Tecnologías de la Información · ULEAM    │
+│  Manta, Ecuador                                        │
+│                                                        │
+├────────────────────────────────────────────────────────┤
+│  » Diseño la interfaz, construyo el frontend           │
+│    y dejo el sistema funcionando.                      │
+│                                                        │
+│  » Fundé CodiDevs: sistemas internos, CRMs,            │
+│    portales de operaciones y automatizaciones          │
+│    para empresas.                                      │
+│                                                        │
+│  » Entiendo el proceso real del cliente, lo            │
+│    ordeno en pantallas y recién ahí escribo            │
+│    código: Figma, React, Tailwind, Supabase.           │
+│                                                        │
+│  » Fuera del estudio: hackatones, donde más            │
+│    rápido aprendo qué NO construir.                    │
+└────────────────────────────────────────────────────────┘
+```
+
+```text
+══════════════════════════════════════════════════════════
+```
 
 ## CodiDevs
 
@@ -131,9 +130,9 @@ Trabajo real que vive en la organización [CodiDevs](https://github.com/CodiDevs
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/VxGM/VxGM@d256e053af8ae6bcddcc5a39d252dc2d09e2d5d3/assets/aero-divider.svg" alt="" width="100%">
-</p>
+```text
+══════════════════════════════════════════════════════════
+```
 
 ## Contacto
 
