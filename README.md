@@ -7,25 +7,12 @@
 
 ## `~/about`
 
-### Del proceso real a una interfaz que funciona.
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/about-ascii.png">
+  <img src="assets/about-ascii.gif" width="900" alt="Victor Banchón, UI y frontend, fundador de CodiDevs. Ingeniero en TI por ULEAM, Manta, Ecuador. Diseño interfaces, construyo sistemas y automatizo procesos: CRMs, portales y herramientas internas. Entender, diseñar, construir y conectar con Figma, React, Tailwind, Supabase y APIs. En hackatones aprendo qué no construir.">
+</picture>
 
-Soy **Victor Banchón**, ingeniero en Tecnologías de la Información por la **ULEAM**, en **Manta, Ecuador**. Diseño interfaces, construyo el frontend y conecto las piezas para dejar el sistema funcionando.
-
-```text
-$ whoami
-  VxGM / UI + Frontend / fundador de CodiDevs
-
-$ cat workflow
-  entender > diseñar > construir > conectar
-```
-
-- **Lo que construyo:** sistemas internos, CRMs, portales de operaciones y automatizaciones para empresas desde [CodiDevs](https://codidevs.com/).
-- **Cómo trabajo:** primero entiendo el proceso del cliente; después lo convierto en pantallas claras y código. `Figma → React → Tailwind → Supabase → APIs`.
-- **Dónde experimento:** en hackatones, donde aprendo rápido qué construir y, sobre todo, qué dejar fuera.
-
-> **Menos copiar entre Excel y WhatsApp. Más tiempo para tu negocio.**
->
-> [Cuéntame qué proceso quieres simplificar →](https://codidevs.com/)
+[Cuéntame qué proceso quieres simplificar →](https://codidevs.com/)
 
 ```text
 ════════════════════════════════╦════════════════════════════════

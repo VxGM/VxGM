@@ -1,4 +1,4 @@
-"""Regenerate the README hero: python scripts/generate_header.py [monospace-font.ttf].
+"""Regenerate README ASCII cards: python scripts/generate_header.py [monospace-font.ttf].
 
 Requires Pillow: python -m pip install Pillow==12.2.0
 Pass a monospace font path on systems without Consolas or DejaVu Sans Mono.
@@ -47,18 +47,65 @@ def frame(step):
     return image
 
 
-if __name__ == "__main__":
-    frames = [frame(step) for step in range(41)]
-    static = ROOT / "assets/profile-ascii.png"
-    animated = ROOT / "assets/profile-ascii.gif"
+ABOUT = [
+    ("VICTOR BANCHÓN", CYAN),
+    ("UI + Frontend / Fundador de CodiDevs", TEXT),
+    ("Ing. en TI · ULEAM / Manta, Ecuador", MUTED),
+    ("", TEXT),
+    ("── lo que hago", MINT),
+    ("Diseño interfaces. Construyo sistemas.", TEXT),
+    ("Automatizo lo repetitivo.", TEXT),
+    ("CRMs / portales / herramientas internas", MUTED),
+    ("", TEXT),
+    ("── mi proceso", MINT),
+    ("entender > diseñar > construir > conectar", TEXT),
+    ("Figma > React > Tailwind > Supabase > APIs", MUTED),
+    ("", TEXT),
+    ("── fuera del estudio", MINT),
+    ("Hackatones: aprender qué NO construir.", TEXT),
+    ("", TEXT),
+    ("Menos Excel + WhatsApp. Más tiempo para crear.", CYAN),
+]
+
+
+def about_frame(step):
+    image = Image.new("RGB", (900, 610), BG)
+    draw = ImageDraw.Draw(image)
+    columns = 60
+    top = "┌─ ~/about ".ljust(columns - 1, "─") + "┐"
+    bottom = "└" + " VxGM / EOF ──┘".rjust(columns - 1, "─")
+    assert len(top) == len(bottom) == columns
+    assert all(len(text) <= columns - 6 for text, _ in ABOUT)
+    assert font.getlength(top) < 828, "About exceeds the canvas"
+    x = (900 - font.getlength(top)) / 2
+    draw.text((x, 22), top, font=font, fill=CYAN)
+    for row in range(19):
+        y = 50 + row * 27
+        draw.text((x, y), "│" + " " * (columns - 2) + "│", font=font, fill=BORDER)
+        if 1 <= row <= len(ABOUT):
+            text, color = ABOUT[row - 1]
+            count = int(len(text) * max(0, min(1, (step - (row - 1)) / 4)))
+            draw.text((x + font.getlength("   "), y), text[:count], font=font, fill=color)
+    draw.text((x, 563), bottom, font=font, fill=CYAN)
+    return image
+
+
+def save_card(name, frames, pause):
+    static = ROOT / f"assets/{name}.png"
+    animated = ROOT / f"assets/{name}.gif"
     frames[-1].save(static)
     frames[0].save(animated, save_all=True, append_images=frames[1:],
-                   duration=[100] * 40 + [2600], loop=0, optimize=True, disposal=1)
+                   duration=[100] * (len(frames) - 1) + [pause], loop=0, optimize=True, disposal=1)
     with Image.open(animated) as gif:
-        assert gif.is_animated and gif.n_frames > 20
-        assert gif.size == (1060, 530)
+        assert gif.is_animated and gif.n_frames > 1
+        assert gif.size == frames[0].size
         assert gif.info["loop"] == 0
         gif.seek(gif.n_frames - 1)
         assert gif.convert("RGB").getbbox()
     assert animated.stat().st_size < 2_000_000, "Keep the profile lightweight"
     print(f"Generated {animated.name}: {animated.stat().st_size:,} bytes; static fallback OK")
+
+
+if __name__ == "__main__":
+    save_card("profile-ascii", [frame(step) for step in range(41)], 2600)
+    save_card("about-ascii", [about_frame(step) for step in range(22)], 12000)
